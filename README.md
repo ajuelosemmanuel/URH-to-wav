@@ -19,3 +19,11 @@ Linux :
 ```bash
 pip install -r requirements.txt
 ```
+
+# Usage
+
+```
+python urhtowav.py [yourfile.complex]
+```
+
+Note : Default values for the sampling frequency and the downer are 1000000 and 7. You can change those at the end of the script.
