@@ -8,7 +8,7 @@ PS : two audio files are created - one has Butterworth filtering and the other h
 
 First, make sure to have a recent version of [Python 3](https://www.python.org/downloads/).
 
-Then, install the required libraries so the script can run.
+Then, install the required packages so the script can run.
 
 Windows :
 ```bash
