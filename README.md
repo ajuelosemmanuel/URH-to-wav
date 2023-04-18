@@ -2,6 +2,8 @@
 
 Script that turns a .complex file from URH (Universal Radio Hacker) to a .wav file
 
+The point of this script is to get "listen-able" audio from a radio recording.
+
 PS : two audio files are created - one has Butterworth filtering and the other hasn't. You can differenciate those by the name (one has "filt" in it).
 
 ## Installation
