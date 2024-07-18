@@ -14,7 +14,7 @@ def main(fpath = '', fs=1000000, downer=7):
     
     # Checking if the file is too big (for some reason, it's not working if the file is "heavier" than 190MB)
     if os.path.getsize(fpath) > 190000000:
-        raise ValueError("The must have a size of 190MB or less.")
+        raise ValueError("The file must have a size of 190MB or less.")
     
     # Reading the file with numpy
     c = np.fromfile(fpath, np.float32)
